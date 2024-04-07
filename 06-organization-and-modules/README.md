@@ -1,3 +1,6 @@
+FRED: 03- is one main.tf for everything.
+FRED: 06- is when we create modules and then we ch to web-app and do the following commands.  Remember you have to enter two parameters at runtime which are passwords to DB which are at least 8 char and your pattern says 12121212
+You do that, then you see four EC2's running and two sets of load balancers and two web-apps... Is really a great example...
 0214  terraform init
 10224  terraform plan -lock=false
 10225  terraform deploy -lock=false
